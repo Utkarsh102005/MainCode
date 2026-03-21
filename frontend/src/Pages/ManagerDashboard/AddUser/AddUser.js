@@ -200,7 +200,7 @@ const AddUser = () => {
                 <input className="datePicker" type="date" name="dob" max={todayDate} value={value.dob} onChange={handleValue} />
                 <label>Upload DOB proff</label>
                 <input variant="outlined" className="materialInput fileSelect" type="file" name="0" onChange={handleImage} hidden="hidden" />
-                <TextField variant="outlined" className="materialInput" type="text" name="0" value={value.dobImage} onClick={handleClick} disabled={true}/>
+                <TextField variant="outlined" className="materialInput" type="text" name="0" value={value.dobImage} onClick={handleClick} InputProps={{ readOnly: true }}/> 
                 <label>Password</label>
                 <TextField variant="outlined" className="materialInput" type="password" name="pass" value={value.pass} onChange={handleValue} />
                 <label>Confirm Password</label>
@@ -237,7 +237,7 @@ const AddUser = () => {
                 <TextField variant="outlined" className="materialInput" type="text" name="ifsc" value={value.ifsc} onChange={handleValue} />
                 <label>Upload Passbook</label>
                 <input variant="outlined" className="materialInput  fileSelect" type="file" name="1"  onChange={handleImage} hidden="hidden" />
-                <TextField variant="outlined" className="materialInput" type="text" name="1" value={value.passBook} onClick={handleClick} disabled={true}/>
+                <TextField variant="outlined" className="materialInput" type="text" name="1" value={value.passBook} onClick={handleClick} InputProps={{ readOnly: true }}/>
             </div>
             <div className="AddUserCard">
                 <h2>Document Information</h2><label></label><label></label><label></label>
@@ -251,15 +251,15 @@ const AddUser = () => {
                 <TextField variant="outlined" className="materialInput" type="text" name="id" value={value.id} onChange={handleValue} />
                 <label>Upload ID</label>
                 <input variant="outlined" className="materialInput  fileSelect" type="file" name="2" onChange={handleImage} hidden="hidden" />
-                <TextField variant="outlined" className="materialInput" type="text" name="2" value={value.idImage} onClick={handleClick} disabled={true}/>
+                <TextField variant="outlined" className="materialInput" type="text" name="2" value={value.idImage} onClick={handleClick} InputProps={{ readOnly: true }}/>
                 <label>Driving License</label>
                 <TextField variant="outlined" className="materialInput" type="text" name="license" value={value.license} onChange={handleValue} />
                 <label>Upload Driving License</label>
                 <input variant="outlined" className="materialInput  fileSelect" type="file" name="3" onChange={handleImage} hidden="hidden" />
-                <TextField variant="outlined" className="materialInput" type="text" name="3" value={value.licenseImage} onClick={handleClick} disabled={true}/>
+               <TextField variant="outlined" className="materialInput" type="text" name="3" value={value.licenseImage} onClick={handleClick} InputProps={{ readOnly: true }}/>
                 <label>Upload User's Photo</label>
                 <input variant="outlined" className="materialInput  fileSelect" type="file" name="4" onChange={handleImage} hidden="hidden" />
-                <TextField variant="outlined" className="materialInput" type="text" name="4" value={value.photo} onClick={handleClick} disabled={true}/>
+                <TextField variant="outlined" className="materialInput" type="text" name="4" value={value.photo} onClick={handleClick} InputProps={{ readOnly: true }}/>
             </div>
             <Button variant="contained" className="submitButton" onClick={submitForm} >Submit Details</Button>
         </div>

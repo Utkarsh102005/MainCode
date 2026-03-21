@@ -67,11 +67,11 @@ const Contact = () => {
                 </div>
                 <div className="detailBox">
                     <HiOutlineMail />
-                    <p>tiwarivikas1407@gmail.com<br />harshitraj4839@gmail.com</p>
+                    <p>BhartiaNikunj1407@gmail.com<br />Utkarshraj4839@gmail.com</p>
                 </div>
                 <div className="detailBox">
                     <GoLocation/>
-                    <p>P NO. 174 SHYAM NAGAR<br />BERKHERA PATHANI,<br />BHOPAL, MADHYA PRADESH</p>
+                    <p>P NO. 174 SHYAM NAGAR<br />BERKHERA PATHANI,<br />Kolkata, West Bengal</p>
                 </div>
             </div>
             <div className="contactForm">

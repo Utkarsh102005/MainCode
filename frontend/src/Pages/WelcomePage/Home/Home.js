@@ -110,8 +110,8 @@ const Home = () => {
                 </div>
                 <div className="Features">
                     <img src={feature3} />
-                    <h2>BEST PLANS ALL OVER BHOPAL</h2>
-                    <p>We offer best customized plan all over in Bhopal</p>
+                    <h2>BEST PLANS ALL OVER Kolkata</h2>
+                    <p>We offer best customized plan all over in Kolkata</p>
                 </div>
             </div>
         </div>

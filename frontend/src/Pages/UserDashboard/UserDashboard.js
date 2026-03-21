@@ -118,7 +118,7 @@ const UserDashboard = () => {
                             </div>
                         </div>
                         <div className="NavBarSide">
-                            <h2>NO. 1 BIKE RENTAL<br /> SERVICES IN BHOPAL</h2>
+                            <h2>NO. 1 BIKE RENTAL<br /> SERVICES IN Kolkata</h2>
                             <Button variant="outlined" onClick={(e) => setId("about")}>Learn More<FiArrowRight className="arrowRight" /></Button>
                         </div>
                     </div>
@@ -126,8 +126,8 @@ const UserDashboard = () => {
                         {showSection()}
                     </div>
                     <div className="Footer">
-                        <h3>P NO. 174 SHYAM NAGAR BERKHERA PATHANI, BHOPAL, MADHYA PRADESH</h3>
-                        <h4>tiwarivikas1407@gmail.com</h4>
+                        <h3>P NO. 174 SHYAM NAGAR BERKHERA PATHANI, Kolkata, West Bengal</h3>
+                        <h4>BhartiaNikunj1407@gmail.com</h4>
                         <h3>+91 9826831306/ +91 7992209885</h3>
                         <h3>Booking Timings are from 10:00 AM to 8:00 PM</h3>
                         <h2>We Are Social</h2>

@@ -23,7 +23,7 @@ A MERN Stack application for book vehicles and rent it for some duration.
 
 To deploy this application:
 
-1. git clone https://github.com/VikasTiwari14/RentsForCents
+1. git clone https://github.com/NikunjBhartia14/RentsForCents
 
 2. Install Latest version of node.js
 
@@ -65,5 +65,5 @@ To deploy this application:
 
 ## Authors
 
-- [@Vikas Tiwari](https://github.com/VikasTiwari14)
-- [@Harshit Raj](https://github.com/harshitraj12/)
+- [@Nikunj Bhartia](https://github.com/NikunjBhartia14)
+- [@Utkarsh Raj](https://github.com/Utkarshraj12/)

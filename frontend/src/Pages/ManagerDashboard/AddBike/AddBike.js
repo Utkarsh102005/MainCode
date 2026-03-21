@@ -91,8 +91,22 @@ const AddBike = () => {
                 <label>Rate (per day)</label>
                 <TextField variant="outlined" className="materialInput" type="number" name="rate" value={value.rate} onChange={handleValue} />
                 <label>Upload Vehicle Image</label>
-                <input variant="outlined" className="materialInput fileSelect" type="file" onChange={handleImage} hidden="hidden" />
-                <TextField variant="outlined" className="materialInput" type="text" name="image" value={value.image} onClick={handleClick} disabled={true}/>
+<input
+  variant="outlined"
+  className="materialInput fileSelect"
+  type="file"
+  onChange={handleImage}
+  hidden="hidden"
+/>
+<TextField
+  variant="outlined"
+  className="materialInput"
+  type="text"
+  name="image"
+  value={value.image}
+  onClick={handleClick}
+  InputProps={{ readOnly: true }}
+/>
             </div>
             <Button variant="contained" className="submitButton" onClick={submitForm}>Save Vehicle</Button>
         </div>
